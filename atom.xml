@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sjyb.github.io/"/>
-  <updated>2020-04-29T12:33:26.865Z</updated>
+  <updated>2020-04-29T13:31:33.255Z</updated>
   <id>https://sjyb.github.io/</id>
   
   <author>
@@ -17,36 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://sjyb.github.io/2020/04/29/hello-world/"/>
-    <id>https://sjyb.github.io/2020/04/29/hello-world/</id>
-    <published>2020-04-29T12:33:26.865Z</published>
-    <updated>2020-04-29T12:33:26.865Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>关于最近の</title>
     <link href="https://sjyb.github.io/2020/04/29/%E5%85%B3%E4%BA%8E%E6%9C%80%E8%BF%91/"/>
     <id>https://sjyb.github.io/2020/04/29/%E5%85%B3%E4%BA%8E%E6%9C%80%E8%BF%91/</id>
     <published>2020-04-29T11:45:27.000Z</published>
-    <updated>2020-04-29T13:05:51.189Z</updated>
+    <updated>2020-04-29T13:31:33.255Z</updated>
     
     <content type="html"><![CDATA[<h2 id="1、回顾"><a href="#1、回顾" class="headerlink" title="1、回顾"></a>1、回顾</h2><p>​    现今已经2020年了，不知觉时间就流逝了，我曾花费很多时间去思考我的时间到底干了些什么，最后也没有结论。不过整出写搞笑的东西，例如用OneNote写了份大事记，从2016年开始，隔断时间想起来就记录下，也有几十条了，翻看后觉得发生的事还有印象的。也用素记记录每日的简短日记，断断续续也有百八十条，后来又解锁了高级版，不过自从旧手机出问题（电池亏损），换新手机（新手机的命途舛，后续会说），结果高级版并不通用，记日记的习惯也就丢了，由此回顾的时候也不知道从哪里回顾了。</p><a id="more"></a><h2 id="2、关于博客"><a href="#2、关于博客" class="headerlink" title="2、关于博客"></a>2、关于博客</h2><p>​    2015年，当时正在读大学，已到大三，但在大三一起，对技术性内容并没有太多了解，只记得大二学Java时，从朋友处拷贝来尚硅谷的Java视频，从早上看到晚上，然后使用Eclipse照搬，后来用Java做了毕设，毕设后就再也没有动过Java。到大三时有朋友专升本到一个宿舍，也没有学到很多东西，但了解了一些计算机方面的内容，如Linux、blog、Network Security等内容，感觉如同新世界，于是使用一些免费域名空间自己做服务器，但域名等访问有限制，操作繁琐，很快就放弃了，后来也在一些博客平台，如lofter、博客大巴写无聊文字，主题固定，每天推送各种消息，很快就厌倦了。后来发现了farbox，很喜欢，有编辑器，价格也便宜，购买了standard版本，不幸的是 farbox主人入不敷出，升级了版本，在github逛的时候看到用hexo搭建的博客，又可以做图床，很兴奋，于是2017年在linuxmint上完成了博客主页的搭建，个人发文缓慢，持续到了2018年。19年，准备继续发文时发现曾注册邮箱的QQ号码早已过期，当时注册时也没有用手机绑定，就这样github的博客GG了，由于日常繁忙，虽整理了许多笔记，但没有发出来，也感觉有些浪费，因此20年就重拾github博客，正好有台旧电脑，安装了deepin，架构速度超快。也曾想用Windows系统，但试了好几次发现nvm与node之间的问题比较大，也懒得折腾，准备抽出时间做一些自己感兴趣的内容，也算是自己的一些历程。 </p>]]></content>
     
     <summary type="html">
     
       &lt;h2 id=&quot;1、回顾&quot;&gt;&lt;a href=&quot;#1、回顾&quot; class=&quot;headerlink&quot; title=&quot;1、回顾&quot;&gt;&lt;/a&gt;1、回顾&lt;/h2&gt;&lt;p&gt;​    现今已经2020年了，不知觉时间就流逝了，我曾花费很多时间去思考我的时间到底干了些什么，最后也没有结论。不过整出写搞笑的东西，例如用OneNote写了份大事记，从2016年开始，隔断时间想起来就记录下，也有几十条了，翻看后觉得发生的事还有印象的。也用素记记录每日的简短日记，断断续续也有百八十条，后来又解锁了高级版，不过自从旧手机出问题（电池亏损），换新手机（新手机的命途舛，后续会说），结果高级版并不通用，记日记的习惯也就丢了，由此回顾的时候也不知道从哪里回顾了。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="随笔" scheme="https://sjyb.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://sjyb.github.io/2020/04/28/hello-world/"/>
+    <id>https://sjyb.github.io/2020/04/28/hello-world/</id>
+    <published>2020-04-28T11:45:27.000Z</published>
+    <updated>2020-04-29T13:31:03.538Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
     
     </summary>
     
