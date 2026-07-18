@@ -1,6 +1,6 @@
 ---
 title: "搭建笔记五：Obsidian Git 同步配置与 Hugo 交叉引用整理"
-date: 2026-07-18
+date: 2026-07-18T13:00:00+08:00
 description: "Hugo ref shortcode 避坑指南：文件名规范、交叉引用语法、构建失败常见原因"
 ShowToc: true
 TocOpen: true

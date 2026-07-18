@@ -1,6 +1,6 @@
 ---
 title: "搭建笔记四：Obsidian Git 本地优先同步配置"
-date: 2026-07-18
+date: 2026-07-18T12:00:00+08:00
 description: "Obsidian Git 插件配置：本地优先策略、10 分钟自动备份、作者信息设置"
 ShowToc: true
 TocOpen: true

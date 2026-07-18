@@ -1,6 +1,6 @@
 ---
 title: "搭建笔记一：Hugo + Obsidian + GitHub Pages 全链路配置"
-date: 2026-07-17
+date: 2026-07-18T09:00:00+08:00
 description: "从零搭建静态博客的完整闭环：Hugo 生成页面、Obsidian 写文章、GitHub Actions 自动部署至 GitHub Pages"
 ShowToc: true
 TocOpen: true
