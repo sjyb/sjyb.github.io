@@ -12,6 +12,7 @@ params:
   disableSpecial1stPost: true
   # 目录(TOC)全局开关：true=所有文章默认显示右侧目录
   TableOfContents: true
+  ShowToc: true
 
 # 菜单：新版 PaperMod 标准写法（main 直接是数组，不套 params）
 menu:

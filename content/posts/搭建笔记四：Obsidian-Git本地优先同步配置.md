@@ -1,6 +1,8 @@
 ---
 title: "搭建笔记四：Obsidian Git 本地优先同步配置"
 date: 2026-07-18
+ShowToc: true
+weight: 40
 tags: ["Obsidian","Git","同步","本地优先","博客"]
 draft: false
 ---

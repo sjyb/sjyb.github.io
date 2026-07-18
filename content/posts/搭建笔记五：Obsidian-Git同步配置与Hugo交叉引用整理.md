@@ -1,6 +1,8 @@
 ---
 title: "搭建笔记五：Obsidian Git 同步配置与 Hugo 交叉引用整理"
 date: 2026-07-18
+ShowToc: true
+weight: 35
 tags: ["Obsidian","Git","Hugo","同步","交叉引用"]
 draft: false
 ---
