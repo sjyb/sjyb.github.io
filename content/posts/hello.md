@@ -1,0 +1,16 @@
+---
+title: "你好，世界"
+date: 2026-07-18
+tags: ["博客","搭建"]
+draft: false
+---
+
+# 这是第一篇测试文章
+
+如果你能在网页上看到它，说明 Hugo + PaperMod + Obsidian 的闭环已经跑通。
+
+```bash
+echo "hello from sjyb"
+```
+
+> 下一步：把 `draft` 设为 false 的文章写进 `content/posts/`，Obsidian Git 会自动同步到 GitHub Pages。

@@ -1,0 +1,35 @@
+baseURL: "https://sjyb.github.io/"
+languageCode: "zh-cn"
+title: "SJYB 的技术笔记"
+theme: PaperMod
+
+params:
+  defaultTheme: "dark"
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ProfileMode: false
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+
+  # 首页菜单
+  menu:
+    main:
+      - identifier: posts
+        name: 文章
+        url: /posts/
+        weight: 10
+      - identifier: tags
+        name: 标签
+        url: /tags/
+        weight: 20
+
+# 关闭 Hugo 默认分类法里的 taxonomy 干扰（只用 tags）
+taxonomies:
+  tag: tags
+
+markup:
+  highlight:
+    noClasses: false
+    lineNos: false
