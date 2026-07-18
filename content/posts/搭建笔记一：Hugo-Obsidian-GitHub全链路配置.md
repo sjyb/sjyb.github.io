@@ -39,7 +39,7 @@ gh auth status   # GitHub CLI 登录状态
 
 ### 2.1 新建公开仓库
 
-登录 GitHub → New Repository，命名为 `sjyb.github.io`（`sjyb` 替换为你的 GitHub 用户名）。
+登录 GitHub → New Repository，命名为 `**.github.io`（`**` 替换为你的 GitHub 用户名）。
 
 **重要设置**：
 - **Public**（GitHub Pages 必须公开仓库）
@@ -131,7 +131,7 @@ rm PaperMod.zip
 > ⚠️ Hugo 优先读取 `hugo.toml`，如果同时存在 `config.yaml`，`hugo.toml` 会覆盖它。**不要混用**。建议统一用 `config.yaml`（更直观），删除或重命名 `hugo.toml`。
 
 ```yaml
-baseURL: "https://sjyb.github.io/"
+baseURL: "https://**.github.io/"
 languageCode: "zh-cn"
 title: "SJYB 的技术笔记"
 theme: "PaperMod"
@@ -163,7 +163,7 @@ params:
   # 社交链接
   socialIcons:
     - name: github
-      url: "https://github.com/sjyb"
+      url: "https://github.com/**"
   # 主题配置
   defaultTheme: dark         # 默认深色模式
   disableThemeToggle: false  # 显示主题切换按钮
@@ -218,7 +218,7 @@ Thumbs.db
 ```bash
 cd ~/blog
 git init
-git remote add origin https://github.com/sjyb/sjyb.github.io.git
+git remote add origin https://github.com/**/**.github.io.git
 
 # 添加所有文件（排除 .gitignore 中的）
 git add .
@@ -296,7 +296,7 @@ git commit -m "ci: 添加 GitHub Pages 自动部署 workflow"
 git push
 ```
 
-然后在 GitHub 仓库页面：Actions → 等待第一次 workflow 运行完成（约 20-30 秒）→ 访问 `https://sjyb.github.io` 确认页面正常。
+然后在 GitHub 仓库页面：Actions → 等待第一次 workflow 运行完成（约 20-30 秒）→ 访问 `https://**.github.io` 确认页面正常。
 
 ## 9 Obsidian 插件安装
 
@@ -352,7 +352,7 @@ mv /tmp/tp_tmp/dist ~/.obsidian/plugins/templater-obsidian/
 |--------|--------|
 | Vault backup interval | 10 分钟 |
 | Auto backup after commit | ✅ 开启 |
-| Commit author | `sjyb <wndkz_ybh@163.com>` |
+| Commit author | `** <**@**.**>` |
 | Custom message | `%Y-%m-%d %H:%M 自动备份` |
 
 > ⚠️ 如果 gh 已经登录并配置了 git credential helper，Obsidian Git 的 push/pull 会自动使用 GitHub 凭据，无需额外输入密码。
@@ -405,7 +405,7 @@ hugo server -D
 # 访问 http://localhost:1313 查看效果
 
 # 等待 GitHub Actions 构建完成（约 20-30 秒）
-# 访问 https://sjyb.github.io/posts/文章名/
+# 访问 https://**.github.io/posts/文章名/
 ```
 
 构建状态在 GitHub 仓库 → Actions 页面查看。
@@ -460,4 +460,4 @@ git config --global credential.helper osxkeychain
 
 ---
 
-> 下一篇：[搭建笔记二：Obsidian + picgo-core + Gitee 图床 + launchd 开机自启]({{< ref "搭建笔记二-Obsidian-picgo-core-Gitee图床-launchd开机自启" >}})
+> 下一篇：[搭建笔记二-a：Obsidian + picgo-core + Gitee 图床配置]({{< ref "搭建笔记二-a-Obsidian-picgo-core-Gitee图床配置" >}})
