@@ -1,6 +1,7 @@
 ---
 title: "搭建笔记三：macOS launchd 开机自启动 picgo server"
 date: 2026-07-18
+description: "用 macOS launchd 配置 picgo-core server 开机自启动，36677 端口持久化"
 ShowToc: true
 TocOpen: true
 weight: 45

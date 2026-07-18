@@ -1,6 +1,7 @@
 ---
 title: "搭建笔记二：Obsidian + picgo-core + Gitee 图床配置"
 date: 2026-07-18
+description: "用 picgo-core + gitee 插件替代 GUI PicGo，实现粘贴即传图到 Gitee 图床"
 ShowToc: true
 TocOpen: true
 weight: 50
