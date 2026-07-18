@@ -9,23 +9,20 @@ params:
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ProfileMode: false
   disableSpecial1stPost: true
-  disableScrollToTop: false
 
-  # 首页菜单
-  menu:
-    main:
-      - identifier: posts
-        name: 文章
-        url: /posts/
-        weight: 10
-      - identifier: tags
-        name: 标签
-        url: /tags/
-        weight: 20
+# 菜单：新版 PaperMod 标准写法（main 直接是数组，不套 params）
+menu:
+  main:
+    - identifier: posts
+      name: 文章
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 20
 
-# 关闭 Hugo 默认分类法里的 taxonomy 干扰（只用 tags）
 taxonomies:
   tag: tags
 
