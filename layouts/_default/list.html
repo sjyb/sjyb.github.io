@@ -43,6 +43,7 @@
 {{- $pages := where site.RegularPages "Section" "posts" }}
 {{- /* 排序：date 倒序（新在前）为主；同日按 weight 倒序（大在前） */ -}}
 {{- /* 排序：date 倒序（新在前）为主；同日靠 datetime 区分，weight 作兜底 */ -}}
+{{- /* 排序：date 倒序（最新在前）；同日靠 datetime 区分，weight 作兜底 */ -}}
 {{- $pages = sort $pages "Date" "desc" }}
 {{- $paginator := .Paginate $pages }}
 
