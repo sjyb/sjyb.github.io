@@ -298,5 +298,3 @@ _private/
 > `_private/` 目录用于存放靶机 writeup 草稿（含真实 IP/flag 等敏感信息），绝不会 push 到 GitHub。
 
 ---
-
-> 上一篇：[搭建笔记二-b：macOS launchd 开机自启动 picgo server]({{< ref "搭建笔记二：macOS-launchd-开机自启动-picgo-server" >}})

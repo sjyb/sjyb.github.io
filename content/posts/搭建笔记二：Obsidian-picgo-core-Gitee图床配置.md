@@ -352,4 +352,3 @@ Gitee raw URL 在某些网络（公司内网、学校网络）下可能无法访
 
 ---
 
-> 下一篇：[搭建笔记二-b：macOS launchd 开机自启动 picgo server]({{< ref "搭建笔记二：macOS-launchd-开机自启动-picgo-server" >}})
