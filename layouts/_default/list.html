@@ -41,7 +41,17 @@
 
 {{- /* 排序：date 倒序为主；同日按 weight 倒序（weight 大靠前） */ -}}
 {{- $pages := where site.RegularPages "Section" "posts" }}
-{{- $pages = sort $pages "Weight" "desc" }}
+{{- $sA := sort $pages "Date" "desc" "Weight" "desc" }}
+{{- $sB := sort $pages "Date" "asc" "Weight" "asc" }}
+{{- $sC := sort $pages "Date" "desc" "Weight" "asc" }}
+{{- $sD := sort $pages "Date" "asc" "Weight" "desc" }}
+<div id=dbg style="display:none">
+A:{{- range $sA }}[w{{.Weight}}d{{.Date.Format "01-02"}}]{{- end }}
+B:{{- range $sB }}[w{{.Weight}}d{{.Date.Format "01-02"}}]{{- end }}
+C:{{- range $sC }}[w{{.Weight}}d{{.Date.Format "01-02"}}]{{- end }}
+D:{{- range $sD }}[w{{.Weight}}d{{.Date.Format "01-02"}}]{{- end }}
+</div>
+{{- $pages = $sA }}
 {{- $paginator := .Paginate $pages }}
 
 
