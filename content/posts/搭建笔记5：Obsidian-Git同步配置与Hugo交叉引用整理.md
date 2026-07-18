@@ -96,21 +96,23 @@ Hugo 交叉引用用的是**文件名（去掉 .md）**，与 front matter `titl
 ```
 搭建笔记1：{内容摘要}.md
 搭建笔记2：{内容摘要}.md
-搭建笔记2-a：{内容摘要}.md
-搭建笔记2-b：{内容摘要}.md
 搭建笔记3：{内容摘要}.md
+搭建笔记4：{内容摘要}.md
+搭建笔记5：{内容摘要}.md
 ```
 
+> 序号用阿拉伯数字（1~5），不用中文「一二三四五」。
 > front matter `title:` 可以包含更多细节（如完整标题），但序号前缀必须与文件名一致。
 
 ### 4.4 本博客当前文章列表
 
-| 文章 | Hugo Ref Key |
+| 文章 | Hugo Ref Key（文件名去 .md） |
 |------|-------------|
 | 搭建笔记1：Hugo + Obsidian + GitHub Pages 全链路配置 | `搭建笔记1：Hugo-Obsidian-GitHub全链路配置` |
 | 搭建笔记2：Obsidian + picgo-core + Gitee 图床配置 | `搭建笔记2：Obsidian-picgo-core-Gitee图床配置` |
-| 搭建笔记2-b：macOS launchd 开机自启动 picgo server | `搭建笔记2-b：macOS-launchd-开机自启动-picgo-server` |
-| 搭建笔记3：Obsidian Git 本地优先同步配置 | `搭建笔记4：Obsidian-Git本地优先同步配置` |
+| 搭建笔记3：macOS launchd 开机自启动 picgo server | `搭建笔记3：macOS-launchd-开机自启动-picgo-server` |
+| 搭建笔记4：Obsidian Git 本地优先同步配置 | `搭建笔记4：Obsidian-Git本地优先同步配置` |
+| 搭建笔记5：Obsidian Git 同步配置与 Hugo 交叉引用整理 | `搭建笔记5：Obsidian-Git同步配置与Hugo交叉引用整理` |
 
 ### 4.5 发布前必做 Hugo 本地构建测试
 
@@ -148,14 +150,18 @@ _private/
 SteamTools 代理工具对 `github.com:443` 做 SSL 中间人拦截，导致 `git push` 失败：
 
 ```
-fatal: unable to access 'https://github.com/...':
-Error in the HTTP2 framing layer
+fatal: unable to access 'https://github.com/...': Empty reply from server
+# 或连接卡在 Trying 20.26.156.215:443 超时
 ```
 
 ### 解决方案
 
 ```bash
-# 方案一：设置 GITHUB_TOKEN 环境变量（推荐）
+# 方案一（最常用）：退出 SteamTools 或将 github.com 加入白名单
+#    菜单栏退出 SteamTools → 重新 git push
+
+# 方案二：设置 GITHUB_TOKEN 环境变量
+
 export GITHUB_TOKEN=$(gh auth token 2>/dev/null)
 git push origin main
 
@@ -195,6 +201,46 @@ git push origin main
 □ 无真实用户名/邮箱/路径在正文中
 □ git log 确认 commit message 无隐私信息
 ```
+
+## 9 文章排序规则（列表页 / 目录页）
+
+博客列表（`/posts/`）与目录页（`/archive/`）共用同一排序规则，由 `layouts/_default/list.html` 与 `layouts/_default/archive.html` 控制。
+
+### 9.1 排序逻辑
+
+```go
+{{- $pages = sort $pages "Date" "desc" }}
+```
+
+- 主排序键：`date`（front matter 的 `date` 字段，含具体时刻）
+- 方向：`desc` = **时刻越大越靠前**（最新文章排最前）
+- 同日兜底：每篇文章 `date` 带**不同时刻**（如 `09:00`/`10:00`…），避免同日平局退化为枚举顺序；`weight` 仅作理论兜底（同日同秒才生效，实际用不到）
+
+### 9.2 当前 6 篇展示顺序（新 → 旧）
+
+| 顺序 | 文章 | date 时刻 |
+|------|------|-----------|
+| 1（最前） | 搭建笔记5 | 14:00 |
+| 2 | 搭建笔记4 | 13:00 |
+| 3 | 搭建笔记3 | 12:00 |
+| 4 | 搭建笔记2 | 11:00 |
+| 5 | 搭建笔记1 | 10:00 |
+| 6（最底） | 你好，世界 | 09:00 |
+
+### 9.3 发新文的排序操作
+
+- **要排最前**：新文 `date` 填一个比现有更晚的 datetime（如明天写就填明天的时刻）
+- ⚠️ **buildFuture 坑**：Hugo 默认 `buildFuture: false`，会**排除未来日期**的文章——`date` 填「今天或过去」的时刻，别填后天之后，否则文章会从网站消失（本地 Obsidian 里还在）
+- 修改 `date` 后必须本地 `hugo --minify` 验证 0 错误再 push
+
+### 9.4 Obsidian 文件浏览器顺序 ≠ 博客顺序（已知差异）
+
+Obsidian 文件浏览器设为「按名称排序」（`fileSortField: name`）。
+
+- 博客顺序：按 `date` 倒序 → `你好世界` 在最底
+- Obsidian 顺序：按文件名 Unicode 码点 → `你好世界` 的「你」码点比「搭」小，**排最前**
+
+这是「Obsidian 按名称排序」方案的固有差异，两边各自合理，无需强行一致。写作时在 Obsidian 按文件名找、发布后在博客按时间看即可。
 
 ---
 
