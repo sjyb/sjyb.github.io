@@ -8,10 +8,8 @@
 </header>
 
 <div class="archive-container">
-  {{- /* 排序：date 倒序为主；同日文章按 weight 倒序（weight 大靠前） */ -}}
+  {{- /* 同年内按 weight 降序，由下方 range 内 sort 控制 */ -}}
   {{- $pages := where site.RegularPages "Section" "posts" }}
-  {{- $pages = $pages.ByWeight.Reverse }}
-  {{- $pages = $pages.ByDate.Reverse }}
 
   {{- range $pages.GroupByDate "2006" }}
     {{- $year := .Key }}
@@ -21,7 +19,7 @@
         <span class="archive-year-count">{{ len .Pages }} 篇</span>
       </summary>
       <ul class="archive-list">
-        {{- range .Pages.ByDate.Reverse }}
+        {{- range sort .Pages "Weight" "desc" }}
           <li class="archive-item">
             <a href="{{ .RelPermalink }}" class="archive-link">
               <span class="archive-item-title">{{ .Title }}</span>
