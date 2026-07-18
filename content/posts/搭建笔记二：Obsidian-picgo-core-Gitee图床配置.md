@@ -5,7 +5,7 @@ tags: ["Obsidian","picgo","Gitee","图床","自动化"]
 draft: false
 ---
 
-# 搭建笔记二-a：Obsidian + picgo-core + Gitee 图床配置
+# 搭建笔记二：Obsidian + picgo-core + Gitee 图床配置
 
 > 本篇记录在博客写作流程中加入截图即传图床功能的完整配置。最终实现：在 Obsidian 中截图粘贴，图片自动上传至 Gitee，返回可直接引用的 URL，无需手动管理图片文件。
 
