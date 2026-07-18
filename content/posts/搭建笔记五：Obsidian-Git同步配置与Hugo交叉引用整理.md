@@ -1,5 +1,5 @@
 ---
-title: "搭建笔记四：Obsidian Git 同步配置与 Hugo 交叉引用整理"
+title: "搭建笔记五：Obsidian Git 同步配置与 Hugo 交叉引用整理"
 date: 2026-07-18
 tags: ["Obsidian","Git","Hugo","同步","交叉引用"]
 draft: false
@@ -107,7 +107,7 @@ Hugo 交叉引用用的是**文件名（去掉 .md）**，与 front matter `titl
 | 搭建笔记一：Hugo + Obsidian + GitHub Pages 全链路配置 | `搭建笔记一：Hugo-Obsidian-GitHub全链路配置` |
 | 搭建笔记二：Obsidian + picgo-core + Gitee 图床配置 | `搭建笔记二：Obsidian-picgo-core-Gitee图床配置` |
 | 搭建笔记二-b：macOS launchd 开机自启动 picgo server | `搭建笔记二-b：macOS-launchd-开机自启动-picgo-server` |
-| 搭建笔记三：Obsidian Git 本地优先同步配置 | `搭建笔记三：Obsidian-Git本地优先同步配置` |
+| 搭建笔记三：Obsidian Git 本地优先同步配置 | `搭建笔记四：Obsidian-Git本地优先同步配置` |
 
 ### 4.5 发布前必做 Hugo 本地构建测试
 
@@ -195,4 +195,4 @@ git push origin main
 
 ---
 
-> 上一篇：[搭建笔记三：Obsidian Git 本地优先同步配置]({{< ref "搭建笔记三：Obsidian-Git本地优先同步配置" >}})
+> 上一篇：[搭建笔记三：Obsidian Git 本地优先同步配置]({{< ref "搭建笔记四：Obsidian-Git本地优先同步配置" >}})

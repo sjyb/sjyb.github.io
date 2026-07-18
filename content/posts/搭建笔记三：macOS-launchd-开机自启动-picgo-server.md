@@ -1,5 +1,5 @@
 ---
-title: "搭建笔记二-b：macOS launchd 开机自启动 picgo server"
+title: "搭建笔记三：macOS launchd 开机自启动 picgo server"
 date: 2026-07-18
 tags: ["macOS","launchd","picgo","自动化","开机自启"]
 draft: false

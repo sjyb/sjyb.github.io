@@ -1,5 +1,5 @@
 ---
-title: "搭建笔记三：Obsidian Git 本地优先同步配置"
+title: "搭建笔记四：Obsidian Git 本地优先同步配置"
 date: 2026-07-18
 tags: ["Obsidian","Git","同步","本地优先","博客"]
 draft: false
@@ -301,4 +301,4 @@ _private/
 
 ---
 
-> 下一篇：[搭建笔记二-b：macOS launchd 开机自启动 picgo server]({{< ref "搭建笔记二-b：macOS-launchd-开机自启动-picgo-server" >}})
+> 下一篇：[搭建笔记二-b：macOS launchd 开机自启动 picgo server]({{< ref "搭建笔记三：macOS-launchd-开机自启动-picgo-server" >}})
