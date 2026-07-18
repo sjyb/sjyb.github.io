@@ -6,7 +6,7 @@ draft: false
 ---
 
 
-> 本篇记录将 picgo server 托管为 macOS LaunchAgent，实现开机/登录后自动拉起，开机即用的全过程。配合 [搭建笔记二：Obsidian + picgo-core + Gitee 图床配置]({{}}) 使用。
+> 本篇记录将 picgo server 托管为 macOS LaunchAgent，实现开机/登录后自动拉起，开机即用的全过程。配合 『搭建笔记二：Obsidian + picgo-core + Gitee 图床配置』使用。
 
 <!-- more -->
 

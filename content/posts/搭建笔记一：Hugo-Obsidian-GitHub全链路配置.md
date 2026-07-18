@@ -5,7 +5,6 @@ tags: ["Hugo","Obsidian","GitHub","博客","搭建"]
 draft: false
 ---
 
-# 搭建笔记一：Hugo + Obsidian + GitHub Pages 全链路配置
 
 > 本篇记录从零搭建静态博客的完整闭环：Hugo 生成页面 → Obsidian 写文章 → GitHub Actions 自动部署至 GitHub Pages。
 
