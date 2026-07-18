@@ -7,7 +7,7 @@ draft: false
 
 # 搭建笔记二：macOS launchd 开机自启动 picgo server
 
-> 本篇记录将 picgo server 托管为 macOS LaunchAgent，实现开机/登录后自动拉起，开机即用的全过程。配合 [搭建笔记二-a：Obsidian + picgo-core + Gitee 图床配置]({{< ref "搭建笔记二-a-Obsidian-picgo-core-Gitee图床配置" >}}) 使用。
+> 本篇记录将 picgo server 托管为 macOS LaunchAgent，实现开机/登录后自动拉起，开机即用的全过程。配合 [搭建笔记二-a：Obsidian + picgo-core + Gitee 图床配置]({{< ref "搭建笔记二：Obsidian-picgo-core-Gitee图床配置" >}}) 使用。
 
 <!-- more -->
 
@@ -231,4 +231,4 @@ picgo upload /tmp/test.png
 
 ---
 
-> 上一篇：[搭建笔记二-a：Obsidian + picgo-core + Gitee 图床配置]({{< ref "搭建笔记二-a-Obsidian-picgo-core-Gitee图床配置" >}})
+> 上一篇：[搭建笔记二-a：Obsidian + picgo-core + Gitee 图床配置]({{< ref "搭建笔记二：Obsidian-picgo-core-Gitee图床配置" >}})
