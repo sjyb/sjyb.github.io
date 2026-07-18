@@ -1,6 +1,6 @@
 ---
-title: "搭建笔记三：macOS launchd 开机自启动 picgo server"
-date: 2026-07-18T11:00:00+08:00
+title: "搭建笔记3：macOS launchd 开机自启动 picgo server"
+date: 2026-07-18T12:00:00+08:00
 description: "用 macOS launchd 配置 picgo-core server 开机自启动，36677 端口持久化"
 ShowToc: true
 TocOpen: true
@@ -10,7 +10,7 @@ draft: false
 ---
 
 
-> 本篇记录将 picgo server 托管为 macOS LaunchAgent，实现开机/登录后自动拉起，开机即用的全过程。配合 『搭建笔记二：Obsidian + picgo-core + Gitee 图床配置』使用。
+> 本篇记录将 picgo server 托管为 macOS LaunchAgent，实现开机/登录后自动拉起，开机即用的全过程。配合 『搭建笔记2：Obsidian + picgo-core + Gitee 图床配置』使用。
 
 <!-- more -->
 

@@ -1,6 +1,6 @@
 ---
-title: "搭建笔记一：Hugo + Obsidian + GitHub Pages 全链路配置"
-date: 2026-07-18T09:00:00+08:00
+title: "搭建笔记1：Hugo + Obsidian + GitHub Pages 全链路配置"
+date: 2026-07-18T14:00:00+08:00
 description: "从零搭建静态博客的完整闭环：Hugo 生成页面、Obsidian 写文章、GitHub Actions 自动部署至 GitHub Pages"
 ShowToc: true
 TocOpen: true
@@ -467,4 +467,4 @@ git config --global credential.helper osxkeychain
 
 ---
 
-> 下一篇：[搭建笔记二：Obsidian + picgo-core + Gitee 图床配置]({{< ref "搭建笔记二：Obsidian-picgo-core-Gitee图床配置" >}})
+> 下一篇：[搭建笔记2：Obsidian + picgo-core + Gitee 图床配置]({{< ref "搭建笔记2：Obsidian-picgo-core-Gitee图床配置" >}})

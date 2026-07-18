@@ -1,6 +1,6 @@
 ---
-title: "搭建笔记四：Obsidian Git 本地优先同步配置"
-date: 2026-07-18T12:00:00+08:00
+title: "搭建笔记4：Obsidian Git 本地优先同步配置"
+date: 2026-07-18T11:00:00+08:00
 description: "Obsidian Git 插件配置：本地优先策略、10 分钟自动备份、作者信息设置"
 ShowToc: true
 TocOpen: true
@@ -305,4 +305,4 @@ _private/
 
 ---
 
-> 下一篇：[搭建笔记三：macOS launchd 开机自启动 picgo server]({{< ref "搭建笔记三：macOS-launchd-开机自启动-picgo-server" >}})
+> 下一篇：[搭建笔记3：macOS launchd 开机自启动 picgo server]({{< ref "搭建笔记3：macOS-launchd-开机自启动-picgo-server" >}})
