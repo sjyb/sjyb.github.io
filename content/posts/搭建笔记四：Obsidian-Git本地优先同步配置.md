@@ -5,7 +5,6 @@ tags: ["Obsidian","Git","同步","本地优先","博客"]
 draft: false
 ---
 
-# 搭建笔记三：Obsidian Git 本地优先同步配置
 
 > 本篇记录博客笔记仓库的 Obsidian Git 插件完整配置：以本地文件为最新版本（Local-First），自动备份 + 自动推送 + 自动拉取，双向同步零障碍。
 
