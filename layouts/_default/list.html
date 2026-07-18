@@ -45,7 +45,9 @@
 {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
 {{- end }}
 
+{{- /* 排序：date 倒序为主；同日按 weight 倒序（weight 大靠前）*/ -}}
 {{- $pages = $pages.ByWeight.Reverse }}
+{{- $pages = $pages.ByDate.Reverse }}
 {{- $paginator := .Paginate $pages }}
 
 {{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}

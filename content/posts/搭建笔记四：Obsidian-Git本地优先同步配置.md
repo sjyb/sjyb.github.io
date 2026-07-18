@@ -305,4 +305,4 @@ _private/
 
 ---
 
-> 下一篇：[搭建笔记二-b：macOS launchd 开机自启动 picgo server]({{< ref "搭建笔记三：macOS-launchd-开机自启动-picgo-server" >}})
+> 下一篇：[搭建笔记三：macOS launchd 开机自启动 picgo server]({{< ref "搭建笔记三：macOS-launchd-开机自启动-picgo-server" >}})

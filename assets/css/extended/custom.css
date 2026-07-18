@@ -1,0 +1,78 @@
+/* ============================================================
+   自定义样式：目录页（/archive/）年份时间轴
+   - 年份分组默认折叠（details 无 open 属性）
+   - 每篇文章：标题第一行，日期第二行
+   ============================================================ */
+
+.archive-container {
+  margin-top: 2rem;
+}
+
+.archive-year {
+  margin-bottom: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  background: var(--entry);
+}
+
+.archive-year-summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.35rem 0;
+}
+
+.archive-year-summary::-webkit-details-marker {
+  display: none;
+}
+
+.archive-year-title {
+  color: var(--primary);
+}
+
+.archive-year-count {
+  font-size: 0.82rem;
+  font-weight: 400;
+  color: var(--secondary);
+}
+
+.archive-list {
+  list-style: none;
+  margin: 0.5rem 0 0;
+  padding: 0;
+}
+
+.archive-item {
+  margin: 0;
+}
+
+.archive-link {
+  display: flex;
+  flex-direction: column;
+  padding: 0.6rem 0.25rem;
+  border-top: 1px dashed var(--border);
+  text-decoration: none;
+}
+
+.archive-link:hover .archive-item-title {
+  color: var(--primary);
+}
+
+.archive-item-title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.45;
+  color: var(--content);
+}
+
+.archive-item-date {
+  font-size: 0.8rem;
+  color: var(--secondary);
+  margin-top: 0.2rem;
+  font-variant-numeric: tabular-nums;
+}

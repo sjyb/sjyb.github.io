@@ -467,4 +467,4 @@ git config --global credential.helper osxkeychain
 
 ---
 
-> 下一篇：[搭建笔记二-a：Obsidian + picgo-core + Gitee 图床配置]({{< ref "搭建笔记二：Obsidian-picgo-core-Gitee图床配置" >}})
+> 下一篇：[搭建笔记二：Obsidian + picgo-core + Gitee 图床配置]({{< ref "搭建笔记二：Obsidian-picgo-core-Gitee图床配置" >}})

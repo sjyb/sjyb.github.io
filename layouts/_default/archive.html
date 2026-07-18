@@ -1,0 +1,37 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">{{ .Description | markdownify }}</div>
+  {{- end }}
+</header>
+
+<div class="archive-container">
+  {{- /* 排序：date 倒序为主；同日文章按 weight 倒序（weight 大靠前） */ -}}
+  {{- $pages := where site.RegularPages "Section" "posts" }}
+  {{- $pages = $pages.ByWeight.Reverse }}
+  {{- $pages = $pages.ByDate.Reverse }}
+
+  {{- range $pages.GroupByDate "2006" }}
+    {{- $year := .Key }}
+    <details class="archive-year">
+      <summary class="archive-year-summary">
+        <span class="archive-year-title">{{ $year }} 年</span>
+        <span class="archive-year-count">{{ len .Pages }} 篇</span>
+      </summary>
+      <ul class="archive-list">
+        {{- range .Pages.ByDate.Reverse }}
+          <li class="archive-item">
+            <a href="{{ .RelPermalink }}" class="archive-link">
+              <span class="archive-item-title">{{ .Title }}</span>
+              <span class="archive-item-date">{{ .Date.Format "2006-01-02" }}</span>
+            </a>
+          </li>
+        {{- end }}
+      </ul>
+    </details>
+  {{- end }}
+</div>
+
+{{- end }}{{- /* end main */ -}}
