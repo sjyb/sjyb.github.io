@@ -2,6 +2,7 @@
 title: "搭建笔记一：Hugo + Obsidian + GitHub Pages 全链路配置"
 date: 2026-07-18
 ShowToc: true
+TocOpen: true
 weight: 55
 tags: ["Hugo","Obsidian","GitHub","博客","搭建"]
 draft: false
@@ -372,6 +373,7 @@ mv /tmp/tp_tmp/dist ~/.obsidian/plugins/templater-obsidian/
 title: "<% tp.file.title %>"
 date: <%
 ShowToc: true
+TocOpen: true
 weight: 55 tp.file.creation_date() %>
 tags: []
 draft: false

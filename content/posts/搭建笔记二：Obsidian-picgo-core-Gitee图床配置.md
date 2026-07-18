@@ -2,6 +2,7 @@
 title: "搭建笔记二：Obsidian + picgo-core + Gitee 图床配置"
 date: 2026-07-18
 ShowToc: true
+TocOpen: true
 weight: 50
 tags: ["Obsidian","picgo","Gitee","图床","自动化"]
 draft: false
