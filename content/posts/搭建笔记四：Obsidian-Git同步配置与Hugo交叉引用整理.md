@@ -67,14 +67,14 @@ git config --list | grep "^user"
 
 > ⚠️ 每次 commit 前确认 git 用户信息正确，避免真实身份泄露。
 
-## 4 Hugo 交叉引用（ref shortcode）规范
+## 4 Hugo cross-ref 引用规范
 
 ### 4.1 引用格式
 
 Hugo 使用 shortcode 语法 {{ ref "文件名（不含 .md）" }} 引用页面，文件名必须**精确匹配**。
 
 ```markdown
-> 下一篇：[标题]({{< ref "文件名（去掉.md扩展名）" >}})
+> 正确格式：{{ ref "文件名（去掉.md扩展名）" }}
 ```
 
 ### 4.2 正确 vs 错误示例
